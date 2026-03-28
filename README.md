@@ -29,6 +29,7 @@ This repository contains:
 - A simple HTML dashboard to view generated charts
 
 ## Architecture
+![Data Pipeline Architecture](./pipeline-image.png)
 - Spark master and worker nodes run via Docker Compose
 - Input data is mounted into containers from `src/input`
 - Jobs are mounted from `src/jobs`
