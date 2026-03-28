@@ -1,0 +1,46 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Python cache/build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Spark and generated outputs
+src/output/*.html
+src/output/*.parquet
+src/output/*.csv
+src/output/*/
+
+# Local notebook runtime artifacts
+*.pid
+*.seed
